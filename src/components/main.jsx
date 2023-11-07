@@ -4,7 +4,9 @@ const main = () => {
   return (
     <div>
       <form>
-        <h1>Email</h1>
+        <label>Email</label>
+        <input type="text"></input>
+
         <h1>Password</h1>
         <button>Submit</button>
       </form>

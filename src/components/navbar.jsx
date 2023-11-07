@@ -4,7 +4,12 @@ const NavBar = () => {
   return (
     <div>
       <hr></hr>
-      <h1 style={{ backgroundColor: "lavender", fontSize: "30px" }}>Sneha D</h1>
+      <center>
+        <h1 style={{ backgroundColor: "lavender", fontSize: "30px" }}>
+          Sneha D
+        </h1>
+      </center>
+
       <hr></hr>
     </div>
   );

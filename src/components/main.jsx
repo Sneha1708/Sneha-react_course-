@@ -11,8 +11,6 @@ const Main = () => {
       <br></br>
       <label for="n">Submit: &emsp;</label>
       <input id="n" type="box" placeholder="click"></input>
-
-      <input></input>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const Footer = () => {
       <center>
         <h2>CopyRights727722euit178@skcet.ac.in</h2>
       </center>
-      <hr></hr>
+      s<hr></hr>
     </div>
   );
 };

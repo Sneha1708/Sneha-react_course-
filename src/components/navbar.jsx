@@ -5,9 +5,7 @@ const NavBar = () => {
     <div>
       <hr></hr>
       <center>
-        <h1 style={{ backgroundColor: "lavender", fontSize: "30px" }}>
-          Sneha D
-        </h1>
+        <h1 style={{ backgroundColor: "pink", fontSize: "30px" }}>Sneha D</h1>
       </center>
 
       <hr></hr>

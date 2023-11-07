@@ -1,24 +1,20 @@
 import React from "react";
 
-const main = () => {
+const Main = () => {
   return (
     <div>
-      <form>
-        <label>
-          <h1>Email</h1>
-        </label>
-        <input type="text"></input>
-        <br></br>
-        <label>
-          <h1>Password</h1>
-        </label>
-        <input type="text"></input>
-        <br></br>
+      <label for="name">Email Id: &emsp;</label>
+      <input id="name" type="box" placeholder="Email ID"></input>
+      <br></br>
+      <label for="na">Password: &emsp;</label>
+      <input id="na" type="box" placeholder="Password"></input>
+      <br></br>
+      <label for="n">Submit: &emsp;</label>
+      <input id="n" type="box" placeholder="click"></input>
 
-        <button>Submit</button>
-      </form>
+      <input></input>
     </div>
   );
 };
 
-export default main;
+export default Main;

@@ -1,11 +1,13 @@
 import React from "react";
 
-const footer = () => {
+const Footer = () => {
   return (
     <div>
-      <h1>CopyRights@2023</h1>
+      <hr></hr>
+      <h2>CopyRights727722euit178@skcet.ac.in</h2>
+      <hr></hr>
     </div>
   );
 };
 
-export default footer;
+export default Footer;

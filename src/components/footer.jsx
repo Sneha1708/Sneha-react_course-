@@ -5,9 +5,9 @@ const Footer = () => {
     <div>
       <hr></hr>
       <center>
-        <h2>CopyRights727722euit178@skcet.ac.in</h2>
+        <h2>CopyRights@IT178skcet</h2>
       </center>
-      s<hr></hr>
+      <hr></hr>
     </div>
   );
 };

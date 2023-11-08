@@ -10,19 +10,19 @@ const Main = () => {
         <br></br>
         <br></br>
         <b>
-          {" "}
-          <label for="name">Email Id: &emsp;</label>
+          <label for="name">Email Id: &emsp;&emsp;</label>
           <input id="name" type="box" placeholder="Email ID"></input>
           <br></br>
           <br></br>
-          <label for="na">Password: &emsp;</label>
+          <label for="na">Password: &emsp;&emsp;</label>
           <input id="na" type="box" placeholder="Password"></input>
           <br></br>
           <br></br>
           &emsp;
           <button>SUBMIT</button>
-        </b>{" "}
+        </b>
       </center>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>

@@ -1,5 +1,17 @@
 
 import React from 'react'
+import InlineStyles from './components/InlineStyles'
+
+const App = () => {
+  return (
+    <div>
+      <InlineStyles/>
+  </div>
+  )
+}
+
+export default App
+/*/import React from 'react'
 import Hello from'./components/Hello'
 const App = () => {
   return (
@@ -10,6 +22,8 @@ const App = () => {
 }
 
 export default App;
+-----------------------------------------------------------------------------------------------
+/*/
 /*/import "./App.css";
 
 import { useState } from "react";
@@ -39,7 +53,9 @@ function App() {
   );
 }
 
-export default App;/*/
+export default App;
+-------------------------------------------------------------------------------------------
+/*/
 
 /*/import Navbar from "./components/Navbar";
 import Main from "./components/Main";
@@ -55,7 +71,7 @@ function App() {
 
     </div>
   );
-}
+}------------------------------------------------------------------------------------------------------------------
 import Count from "./ReactDayThree/Count";
 function App() {
   return (

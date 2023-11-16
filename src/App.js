@@ -1,5 +1,15 @@
 
 import React from 'react'
+import Toggle from './components/Toggle'
+
+const App = () => {
+  return (
+    <div><Toggle/></div>
+  )
+}
+
+export default App
+/*/import React from 'react'
 import InlineStyles from './components/InlineStyles'
 
 const App = () => {
@@ -9,8 +19,9 @@ const App = () => {
   </div>
   )
 }
-
 export default App
+-----------------------------------------------------------------------------
+/*/
 /*/import React from 'react'
 import Hello from'./components/Hello'
 const App = () => {

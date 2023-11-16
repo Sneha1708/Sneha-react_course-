@@ -23,8 +23,17 @@ const Main = () => {
           <input id="na" type="box" placeholder="Password"></input>
           <br></br>
           <br></br>
+          &emsp; Help required : &emsp;
+          <textarea
+            id="abc"
+            placeholder=" If Any issues,Mention here (optional)"
+          ></textarea>
           &emsp;
-          <button>SUBMIT</button>
+          <br></br>
+          <br></br>
+          <button>
+            <b>SUBMIT</b>
+          </button>
         </b>
         <br></br>
         <br></br>

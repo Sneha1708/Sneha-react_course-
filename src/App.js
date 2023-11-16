@@ -1,5 +1,5 @@
 
-import React from 'react'
+/*/import React from 'react'
 import Toggle from './components/Toggle'
 
 const App = () => {
@@ -9,6 +9,8 @@ const App = () => {
 }
 
 export default App
+------------------------------------------------------------------------------------------------
+/*/
 /*/import React from 'react'
 import InlineStyles from './components/InlineStyles'
 
@@ -68,7 +70,7 @@ export default App;
 -------------------------------------------------------------------------------------------
 /*/
 
-/*/import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 
@@ -82,7 +84,10 @@ function App() {
 
     </div>
   );
-}------------------------------------------------------------------------------------------------------------------
+};
+export default App;
+/*/
+-----------------------------------------------------------------------------------------------------------------
 import Count from "./ReactDayThree/Count";
 function App() {
   return (

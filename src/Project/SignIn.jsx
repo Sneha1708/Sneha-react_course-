@@ -1,6 +1,7 @@
 // src/components/SignIn.js
 import React, { useState } from "react";
-import { TextField, Button, Container, Typography } from "@mui/material";
+import { TextField, Button, Typography } from "@mui/material";
+import Paper from "@mui/material/Paper";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -32,11 +33,18 @@ const SignIn = () => {
   };
 
   return (
-    <Container component="main" maxWidth="xs">
+    <Paper
+      elevation={3}
+      style={{ padding: 20, maxWidth: 400, margin: "auto", marginTop: 50 }}
+    >
       <div>
-        <Typography component="h3" variant="h3">
-          Freelance Finder
-        </Typography>
+        <center>
+          {" "}
+          <Typography component="h3" variant="h3">
+            Welcome
+          </Typography>
+          <p>Please sign up to continue</p>
+        </center>
         <form onSubmit={handleSubmit}>
           <TextField
             variant="outlined"
@@ -92,7 +100,7 @@ const SignIn = () => {
           </Button>
         </form>
       </div>
-    </Container>
+    </Paper>
   );
 };
 

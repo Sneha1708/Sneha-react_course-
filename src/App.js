@@ -1,3 +1,39 @@
+// src/App.js
+  import React from 'react';
+import Goku from "./ReactDayThree/Goku";
+function App() {
+  return (
+    <div>
+      <Goku />
+    </div>
+  );
+}
+
+export default App;
+/*/import React from 'react';
+import SignIn from './Project/SignIn';
+
+function App() {
+  return (
+    <div className="App">
+      <SignIn />
+    </div>
+  );
+}
+
+export default App;
+/*/
+/*/import React from 'react'
+import Login from './Project/Login'
+const App = () => {
+  return (
+    <div>
+      <Login/>
+    </div>
+  )
+}
+/
+export default App;/*/
 
 /*/import React from 'react'
 import Toggle from './components/Toggle'
@@ -9,9 +45,10 @@ const App = () => {
 }
 
 export default App
-------------------------------------------------------------------------------------------------
+
 /*/
-/*/import React from 'react'
+/*/------------------------------------------------------------------------------------------------
+import React from 'react'
 import InlineStyles from './components/InlineStyles'
 
 const App = () => {
@@ -70,7 +107,7 @@ export default App;
 -------------------------------------------------------------------------------------------
 /*/
 
-import Navbar from "./components/Navbar";
+/*/import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 
@@ -86,9 +123,9 @@ function App() {
   );
 };
 export default App;
-/*/
 -----------------------------------------------------------------------------------------------------------------
-import Count from "./ReactDayThree/Count";
+/*/
+/*/import Count from "./ReactDayThree/Count";
 function App() {
   return (
     <div>

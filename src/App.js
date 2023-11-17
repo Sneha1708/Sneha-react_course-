@@ -1,5 +1,16 @@
 // src/App.js
-  import React from 'react';
+import React from 'react';
+import FruitSurvey from "./ReactDay-4/FruitSurvey";
+function App() {
+  return (
+    <div>
+      <h1>Student Greeting Form</h1>
+      <FruitSurvey />
+    </div>
+  );
+}
+export default App;
+ /*/ import React from 'react';
 import Goku from "./ReactDayThree/Goku";
 function App() {
   return (
@@ -9,7 +20,7 @@ function App() {
   );
 }
 
-export default App;
+export default App;/*/
 /*/import React from 'react';
 import SignIn from './Project/SignIn';
 

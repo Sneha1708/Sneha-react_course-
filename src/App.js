@@ -1,16 +1,16 @@
 // src/App.js
-
+/*/
 import React from 'react';
 import ButtonDesign from './ReactDay-4/ButtonDesign';
 function App() {
   return (
     <div><center>
-      <h1>React Mateirial-UI Login Example</h1>
+      <h1>React Mateirial-UI Login </h1>
       <ButtonDesign /></center>
     </div>
   );
 }
-export default App;
+export default App;/*/
 /*/import React from 'react';
 import FruitSurvey from "./ReactDay-4/FruitSurvey";
 function App() {
@@ -33,19 +33,21 @@ function App() {
 }
 
 export default App;/*/
-/*/import React from 'react';
-import SignIn from './Project/SignIn';
+import  "./App.css";
+import React from "react";
+import Navbar from "./Project/Navbar";
+import HomePage from "./Project/Homepage";
+
 
 function App() {
   return (
-    <div className="App">
-      <SignIn />
+    <div>
+      <Navbar />
+   <HomePage />
     </div>
   );
 }
-
-export default App;/*/
-
+export default App;
 /*/import React from 'react'
 import Login from './Project/Login'
 const App = () => {
@@ -72,7 +74,7 @@ export default App
 /*/
 /*/------------------------------------------------------------------------------------------------
 import React from 'react'
-import InlineStyles from './components/InlineStyles'
+import InlineStyles from './Day1/InlineStyles'
 
 const App = () => {
   return (
@@ -130,25 +132,24 @@ export default App;
 -------------------------------------------------------------------------------------------
 /*/
 
-/*/import Navbar from "./components/Navbar";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+/*/import Navbar from "./Day1/Navbar";
+import Form from "./Day1/Form";
+import Footer from "./Day1/Footer";
 
 
 function App() {
   return (
     <div>
      <Navbar/>
-     <Main/>
+     <Form/>
      <Footer/>
 
     </div>
   );
 };
-export default App;
------------------------------------------------------------------------------------------------------------------
-/*/
+export default App;/*/
 /*/import Count from "./ReactDayThree/Count";
+-----------------------------------------------------------------------------------------------------------------
 function App() {
   return (
     <div>
